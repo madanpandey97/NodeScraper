@@ -10,12 +10,19 @@ Fs<br>
 Fast-Csv<br>
 
 # To run the module 
- Open terminal  and following command <br>
- git clone https://github.com/madanpandey97/NodeScraper.git
- cd NodeScraper
- npm install 
- node scraper.js
+ Open terminal  and type following command <br>
+ git clone https://github.com/madanpandey97/NodeScraper.git<br>
+ cd NodeScraper<br>
+ npm install <br>
+ node scraper.js<br>
  
+ # To change the range of product id 
+ Open Scraper.js in editing mode and change the range of id at line No 25
+ 
+ ```
+ 	for(let id = 15000; id < 20000; id ++) {
+		let url = `https://www.styfi.in/product/${id}`;
+ ```
  
 # Screen capture of output file 
 
